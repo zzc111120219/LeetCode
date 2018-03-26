@@ -12,3 +12,8 @@ class Solution:
                 return [d[m], i]
             else:
                 d[n] = i
+
+if __name__ == '__main__':
+    test = Solution()
+    result = test.twoSum([3,2,4],6)
+    print(result)
